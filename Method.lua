@@ -1,3 +1,5 @@
+script_key = "SwcQsdeFdIPSrPIWwexOORDOHIueKGHp"
+
 getgenv().Config = {
     ["SnowstormSurvival"] = true,
     ["Mailing"] = {
@@ -22,4 +24,4 @@ getgenv().Config = {
         ["Webhook"] = "https://discord.com/api/webhooks/1249413828547182742/VUCfE51nqu43KBRgI1qqyhoZd7AeGZtrQgsr1AADWAABe1xSFk62t77zHTCJtGqFCzk3"
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b883bc159a5f609adb4871db6fc15ea8.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e75d31131aa5d9b2da332ee7b55d5f6b.lua"))()
