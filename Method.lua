@@ -1,5 +1,4 @@
 getgenv().Config = {
-    ["EquipEnchants"] = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
     ["SnowstormSurvival"] = true,
     ["Mailing"] = {
         ["Usernames"] = {"BigMan_MC"},
