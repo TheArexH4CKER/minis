@@ -8,7 +8,6 @@ _G.GGFX_MODE = 1
 _G.GZONE_TO = 999
 _G.GHOLD_GIFTS = false
 _G.GHOLD_BUNDLES = false
-_G.GMAX_ZONE_UPGRADE_COST = 2000000
 _G.GUSE_FLAGS = {"Fortune Flag"}
 _G.GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 _G.GPOTIONS_MAX_TIER = 19
