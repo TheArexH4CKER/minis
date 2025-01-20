@@ -12,6 +12,7 @@ _G.GUSE_FLAGS = {"Fortune Flag"}
 _G.GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 _G.GPOTIONS_MAX_TIER = 19
 _G.GENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Coins", "Criticals", "Coins", "Active Huge Overload", "Diamond Gift Hunter", "Breakable Mayhem"}
+_G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates to try to equip at script load.
 _G.GFRUITS = {"Apple","Banana","Orange","Rainbow","Pineapple","Watermelon"}
 _G.GWEBHOOK_USERID = "667064890359545917"
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1222557363874168983/cd_SGmpFvesnVoiclLSyost8Ff7Yh83JApCqFtqpENfh2A2WUJIIpuTcE7JaxTzZ3hn0"
