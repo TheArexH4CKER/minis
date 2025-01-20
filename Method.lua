@@ -24,7 +24,7 @@ _G.GMAIL_ITEMS = {
   ["Shiny Golden Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 1, IsGold = true, IsShiny = true},
   ["RB Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 10, IsRainbow = true},
   ["Shiny RB Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 1, IsRainbow = true, IsShiny = true},
-  ["Normal Guard Hydra"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 100},
+  ["Normal Guard Hydra"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 50},
   ["Shiny Normal Guard Hydras"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 1, IsShiny = true},
   ["Golden Guard Hydras"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 5, IsGold = true},
   ["Shiny Golden Guard Hydras"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 1, IsGold = true, IsShiny = true},
