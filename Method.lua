@@ -2,6 +2,7 @@
 -- If not sure ask info in channel
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
 _G.GDO_PETGAMES_EVENT = true
+_G.GHATCH_CHARGED_EGGS = true
 _G.GPAW_RAFFLE_ENTRIES = 250
 _G.GDO_CONTROL_ROOM = false
 _G.GGFX_MODE = 1
