@@ -7,6 +7,8 @@ _G.GPAW_RAFFLE_ENTRIES = 250
 _G.GDO_CONTROL_ROOM = false
 _G.GGFX_MODE = 1
 _G.GZONE_TO = 999
+_G.GMAX_EGG_SLOTS = 99
+_G.GMAX_EQUIP_SLOTS = 99
 _G.GHOLD_GIFTS = false
 _G.GHOLD_BUNDLES = false
 _G.GUSE_FLAGS = {"Fortune Flag"}
@@ -19,13 +21,13 @@ _G.GWEBHOOK_USERID = "667064890359545917"
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1222557363874168983/cd_SGmpFvesnVoiclLSyost8Ff7Yh83JApCqFtqpENfh2A2WUJIIpuTcE7JaxTzZ3hn0"
 _G.GMAIL_RECEIVERS = {"ProfiAzUr"}
 _G.GMAIL_ITEMS = {
-  ["Normal Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 100},
+  ["Normal Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 50},
   ["Shiny Normal Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 1, IsShiny = true},
   ["Golden Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 10, IsGold = true},
   ["Shiny Golden Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 1, IsGold = true, IsShiny = true},
   ["RB Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 10, IsRainbow = true},
   ["Shiny RB Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 1, IsRainbow = true, IsShiny = true},
-  ["Normal Guard Hydra"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 50},
+  ["Normal Guard Hydra"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 25},
   ["Shiny Normal Guard Hydras"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 1, IsShiny = true},
   ["Golden Guard Hydras"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 5, IsGold = true},
   ["Shiny Golden Guard Hydras"] = {Class = "Pet", Id = "Guard Hydra", MinAmount = 1, IsGold = true, IsShiny = true},
