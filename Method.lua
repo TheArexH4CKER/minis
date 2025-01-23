@@ -19,7 +19,7 @@ _G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates 
 _G.GFRUITS = {"Apple","Banana","Orange","Rainbow","Pineapple","Watermelon"}
 _G.GWEBHOOK_USERID = "667064890359545917"
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1222557363874168983/cd_SGmpFvesnVoiclLSyost8Ff7Yh83JApCqFtqpENfh2A2WUJIIpuTcE7JaxTzZ3hn0"
-_G.GMAIL_RECEIVERS = {"ElfBar2500"}
+_G.GMAIL_RECEIVERS = {"ProfiAzUr"}
 _G.GMAIL_ITEMS = {
   ["Normal Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 50},
   ["Shiny Normal Guard Bunnys"] = {Class = "Pet", Id = "Guard Bunny", MinAmount = 1, IsShiny = true},
