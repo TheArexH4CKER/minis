@@ -1,17 +1,15 @@
 -- Please Read FAQ channel for more info! Make sure you understand these parameters
 -- If not sure ask info in channel
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
-_G.GDO_PETGAMES_EVENT = true
-_G.GHATCH_CHARGED_EGGS = false
-_G.GPAW_RAFFLE_ENTRIES = 250
-_G.GDO_CONTROL_ROOM = false
+_G.GDO_CANNON_TYCOON_EVENT = true
 _G.GGFX_MODE = 1
 _G.GZONE_TO = 999
+_G.GHATCH_CHARGED_EGGS = true
 _G.GMAX_EGG_SLOTS = 99
 _G.GMAX_EQUIP_SLOTS = 99
 _G.GHOLD_GIFTS = false
 _G.GHOLD_BUNDLES = false
-_G.GUSE_FLAGS = {"Fortune Flag"}
+_G.GLOOTBOXES = {"All"}
 _G.GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
 _G.GPOTIONS_MAX_TIER = 19
 _G.GENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Coins", "Criticals", "Coins", "Active Huge Overload", "Diamond Gift Hunter", "Breakable Mayhem"}
