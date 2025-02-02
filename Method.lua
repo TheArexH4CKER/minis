@@ -6,6 +6,7 @@ _G.GDO_CANNON_TYCOON_EVENT = true
 _G.GUSE_CANNON_CONSUMABLES = true
 _G.GCONVERT_HELLFIRE_CRYSTALS = true
 _G.GUSE_HELLFIRE_CORES = false
+_G.GTYCOON_MAX_REBIRTHS = 20
 _G.GGFX_MODE = 1
 _G.GHATCH_CHARGED_EGGS = false
 _G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates to try to equip at script load.
