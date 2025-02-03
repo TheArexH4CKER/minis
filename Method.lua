@@ -27,7 +27,7 @@ _G.GMAIL_ITEMS = {
   ["Shiny Normal Wild Galaxy Agonys"] = {Class = "Pet", Id = "Wild Galaxy Agony", MinAmount = 1, IsShiny = true},
   ["Shiny Golden Wild Galaxy Agonys"] = {Class = "Pet", Id = "Wild Galaxy Agony", MinAmount = 1, IsGold = true, IsShiny = true},
   ["Shiny RB Wild Galaxy Agonys"] = {Class = "Pet", Id = "Wild Galaxy Agony", MinAmount = 1, IsRainbow = true, IsShiny = true},
-  ["Hellfire Gifts"] = {Class = "Lootbox", Id = "Hellfire Gift", MinAmount = 20},
+  ["Hellfire Gifts"] = {Class = "Lootbox", Id = "Hellfire Gift", MinAmount = 50},
   ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
   ["Hype Egg"] = {Class = "Lootbox", Id = "Hype Egg", MinAmount = 1},
   ["Daycare egg"] = {Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1},
