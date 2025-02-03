@@ -5,9 +5,9 @@ _G.GPROGRESS_MODE = "Hybrid"
 _G.GDO_CANNON_TYCOON_EVENT = true
 _G.GUSE_CANNON_CONSUMABLES = true
 _G.GCONVERT_HELLFIRE_CRYSTALS = true
-_G.GUSE_HELLFIRE_CORES = false
-_G.GTYCOON_MAX_REBIRTHS = 20
+_G.GUSE_HELLFIRE_CORES = true
 _G.GAUTO_TYCOON_PET_UPGRADE = true
+_G.GTYCOON_MAX_REBIRTHS = 20
 _G.GGFX_MODE = 1
 _G.GHATCH_CHARGED_EGGS = false
 _G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates to try to equip at script load.
@@ -24,8 +24,10 @@ _G.GWEBHOOK_USERID = "667064890359545917"
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1222557363874168983/cd_SGmpFvesnVoiclLSyost8Ff7Yh83JApCqFtqpENfh2A2WUJIIpuTcE7JaxTzZ3hn0"
 _G.GMAIL_RECEIVERS = {"ProfiAzUr"} -- for Huges & items
 _G.GMAIL_ITEMS = {
-  ["Hellfire Cores"] = {Class = "Misc", Id = "Hellfire Core", MinAmount = 10},
-  ["Hellfire Gifts"] = {Class = "Lootbox", Id = "Hellfire Gift", MinAmount = 10},
+  ["Shiny Normal Wild Galaxy Agonys"] = {Class = "Pet", Id = "Wild Galaxy Agony", MinAmount = 1, IsShiny = true},
+  ["Shiny Golden Wild Galaxy Agonys"] = {Class = "Pet", Id = "Wild Galaxy Agony", MinAmount = 1, IsGold = true, IsShiny = true},
+  ["Shiny RB Wild Galaxy Agonys"] = {Class = "Pet", Id = "Wild Galaxy Agony", MinAmount = 1, IsRainbow = true, IsShiny = true},
+  ["Hellfire Gifts"] = {Class = "Lootbox", Id = "Hellfire Gift", MinAmount = 20},
   ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
   ["Hype Egg"] = {Class = "Lootbox", Id = "Hype Egg", MinAmount = 1},
   ["Daycare egg"] = {Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1},
