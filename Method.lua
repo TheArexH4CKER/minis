@@ -6,6 +6,7 @@ _G.GCONVERT_VALENTINE_HEARTS = true
 _G.GUSE_TOWER_TYCOON_BOOSTS = true
 _G.GAUTO_TYCOON_PET_UPGRADE = true
 _G.GTOWER_TYCOON_RAFFLE_ENTRIES  = 100
+_G.GTYCOON_MAX_REBIRTHS = 25
 _G.GGFX_MODE = 1
 _G.GHATCH_CHARGED_EGGS = false
 _G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates to try to equip at script load.
