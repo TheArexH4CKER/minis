@@ -3,6 +3,9 @@
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
 _G.GPROGRESS_MODE = "Hybrid"
 _G.GGFX_MODE = 1
+_G.GDO_CARD_WORLD_EVENT = true
+_G.GCARD_PACK_TO_BUY = "Retro Pack"
+_G.GLOOTBOXES = {"All"}
 _G.GHATCH_CHARGED_EGGS = false
 _G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates to try to equip at script load.
 _G.GRANK_TO = 33
