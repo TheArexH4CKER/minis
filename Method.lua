@@ -24,7 +24,7 @@ _G.GMAIL_ITEMS = {
   ["Huge Blurred Axolotl Cards"] = {Class = "Card", Id = "Huge Blurred Axolotl Card", MinAmount = 1, AllVariants = true},
   ["Huge Nightmare Dog Cards"] = {Class = "Card", Id = "Huge Nightmare Dog Card", MinAmount = 1, AllVariants = true},
   ["Titanic Cupcake Pegasus Cards"] = {Class = "Card", Id = "Titanic Cupcake Pegasus Card", MinAmount = 1, AllVariants = true},
-  ["Fantasy Pack"] = {Class = "Lootbox", Id = "Fantasy Pack", MinAmount = 25},
+  ["Fantasy Pack"] = {Class = "Lootbox", Id = "Fantasy Pack", MinAmount = 50},
   ["Daycare Egg"] = {Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1},
   ["Secret Pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
   ["Secret Pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
