@@ -1,27 +1,60 @@
--- Please Read FAQ channel for more info! Make sure you understand these parameters
--- If not sure ask info in channel
-script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
-_G.GPROGRESS_MODE = "Hybrid"
-_G.GGFX_MODE = 1
-_G.GHATCH_CHARGED_EGGS = false
-_G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates to try to equip at script load.
-_G.GRANK_TO = 33
-_G.GZONE_TO = 999 -- ONLY increase above 99 to go to world2, only when 100% sure, there is no way back for the "best zone" quests etc. 
-_G.GMAX_EGG_SLOTS = 99
-_G.GMAX_EQUIP_SLOTS = 99
-_G.GHOLD_GIFTS = false
-_G.GHOLD_BUNDLES = false
-_G.GPOTIONS = {"Coins","Lucky","The Cocktail","Treasure Hunter","Walkspeed","Diamonds","Damage"}
-_G.GENCHANTS = {}
-_G.GFRUITS = {"Apple","Banana","Orange","Rainbow","Pineapple","Watermelon"}
-_G.GWEBHOOK_USERID = "667064890359545917"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1222557363874168983/cd_SGmpFvesnVoiclLSyost8Ff7Yh83JApCqFtqpENfh2A2WUJIIpuTcE7JaxTzZ3hn0"
-_G.GMAIL_RECEIVERS = {"ProfiAzUr"} -- for Huges & items
-_G.GMAIL_ITEMS = {
-  ["Daycare Egg"] = {Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1},
-  ["Secret Pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
-  ["Secret Pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
-  ["Secret Pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
-  ["Secret Pet4"] = {Class = "Pet", Id = "Lucky Block", MinAmount = 1, AllVariants = true},
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+if not game.Players.LocalPlayer:GetAttribute("__LOADED") then
+    game.Players.LocalPlayer:GetAttributeChangedSignal("__LOADED"):Wait()
+end
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+-- Get the local player
+local player = game.Players.LocalPlayer
+
+-- Wait for the player's character to load
+local character = player.Character or player.CharacterAdded:Wait()
+
+-- Function to teleport the player to a specific CFrame
+local function teleportToCFrame(targetCFrame)
+    if character and targetCFrame then
+        character:SetPrimaryPartCFrame(targetCFrame)
+    else
+        warn("Character or teleport location not found!")
+    end
+end
+
+-- Function to check if Main_1 exists in the BREAKABLE_SPAWNS folder
+local function isMain1Valid()
+    return workspace.__THINGS.Instances.LuckyEventWorld.BREAKABLE_SPAWNS:FindFirstChild("Main_1") ~= nil
+end
+
+-- First teleport: Teleport to workspace.__THINGS.Instances.LuckyEventWorld.Teleports.Enter.CFrame
+if workspace.__THINGS.Instances.LuckyEventWorld.Teleports.Enter then
+    teleportToCFrame(workspace.__THINGS.Instances.LuckyEventWorld.Teleports.Enter.CFrame)
+else
+    warn("First teleport location not found!")
+end
+
+-- Wait for 5 seconds
+wait(5)
+
+-- Continuously check for Main_1 and repeat the first teleport if it doesn't exist
+while not isMain1Valid() do
+    warn("Main_1 is not a valid member of BREAKABLE_SPAWNS. Repeating first teleport...")
+    
+    -- Repeat the first teleport
+    if workspace.__THINGS.Instances.LuckyEventWorld.Teleports.Enter then
+        teleportToCFrame(workspace.__THINGS.Instances.LuckyEventWorld.Teleports.Enter.CFrame)
+    else
+        warn("First teleport location not found!")
+        break -- Exit the loop if the first teleport location is missing
+    end
+
+    -- Wait for 5 seconds before checking again
+    wait(5)
+end
+
+-- Second teleport: Teleport to workspace.__THINGS.Instances.LuckyEventWorld.BREAKABLE_SPAWNS.Main_1.CFrame
+if isMain1Valid() then
+    teleportToCFrame(workspace.__THINGS.Instances.LuckyEventWorld.BREAKABLE_SPAWNS.Main_1.CFrame)
+else
+    warn("Main_1 is still not valid. Teleportation aborted.")
+end
