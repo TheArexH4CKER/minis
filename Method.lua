@@ -1,4 +1,3 @@
-setfpscap(5)
 -- Wait for the player to load and the game to load
 if not game.Players.LocalPlayer:GetAttribute("__LOADED") then
     game.Players.LocalPlayer:GetAttributeChangedSignal("__LOADED"):Wait()
