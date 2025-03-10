@@ -37,7 +37,7 @@ _G.GWEBHOOK_USERID = "667064890359545917"
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1222557363874168983/cd_SGmpFvesnVoiclLSyost8Ff7Yh83JApCqFtqpENfh2A2WUJIIpuTcE7JaxTzZ3hn0"
 _G.GMAIL_RECEIVERS = {"ProfiAzUr"} -- for Huges & items
 _G.GMAIL_ITEMS = {
-  ["Lucky gift"] = {Class = "Lootbox", Id = "Lucky Gift", MinAmount = 10},
+  ["Lucky gift"] = {Class = "Lootbox", Id = "Lucky Gift", MinAmount = 100},
   ["Daycare Egg"] = {Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1},
   ["Secret Pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
   ["Secret Pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
