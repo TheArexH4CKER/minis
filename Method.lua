@@ -6,12 +6,12 @@ _G.GGFX_MODE = 1
 _G.GDO_LUCKY_WORLD_EVENT = true
 _G.GAUTO_RAID = true
 _G.GDO_BOSSES = true
-_G.GRESET_UPGRADES = true
+--_G.GRESET_UPGRADES = true
 _G.GUSE_BOOSTS = true
 _G.GUSE_LEPRECHAUN_KEYS = true
 _G.GMAX_RAID_LEVEL = 20000
-_G.GMIN_MULTIPLIER = 200 -- which egg to hatch
-_G.GEVENT_UPGRADES = {
+_G.GMIN_MULTIPLIER = 300 -- which egg to hatch
+G.GEVENT_UPGRADES = {
  "LuckyRaidDamage",
  --"LuckyRaidAttackSpeed",
  "LuckyRaidPets",
