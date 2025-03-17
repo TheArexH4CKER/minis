@@ -3,30 +3,6 @@
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
 _G.GPROGRESS_MODE = "Hybrid"
 _G.GGFX_MODE = 1
-_G.GDO_LUCKY_WORLD_EVENT = true
-_G.GAUTO_RAID = true
-_G.GDO_BOSSES = true
---_G.GRESET_UPGRADES = true
-_G.GUSE_BOOSTS = true
-_G.GUSE_LEPRECHAUN_KEYS = true
-_G.GMAX_RAID_LEVEL = 20000
-_G.GMIN_MULTIPLIER = 300 -- which egg to hatch
-_G.GEVENT_UPGRADES = {
- "LuckyRaidDamage",
- --"LuckyRaidAttackSpeed",
- "LuckyRaidPets",
- "LuckyRaidEggCost",
- "LuckyRaidMoreCurrency",
--- "LuckyRaidBetterLoot",
--- "LuckyRaidTitanicChest",
--- "LuckyRaidHugeChest",
- "LuckyRaidXP",
--- "LuckyRaidPetSpeed",
--- "LuckyRaidBossDamage",
--- "LuckyRaidKeyDrops",
--- "LuckyRaidBossHugeChances",
--- "LuckyRaidBossTitanicChances",
-}
 _G.GLOOTBOXES = {"Lucky Gift"}
 _G.GHATCH_CHARGED_EGGS = false
 _G.GUSE_ULTIMATES = {"Chest Spell","UFO"} -- default is Ground Pound, ultimates to try to equip at script load.
