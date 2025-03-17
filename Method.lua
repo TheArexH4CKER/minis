@@ -11,7 +11,7 @@ _G.GUSE_BOOSTS = true
 _G.GUSE_LEPRECHAUN_KEYS = true
 _G.GMAX_RAID_LEVEL = 20000
 _G.GMIN_MULTIPLIER = 300 -- which egg to hatch
-G.GEVENT_UPGRADES = {
+_G.GEVENT_UPGRADES = {
  "LuckyRaidDamage",
  --"LuckyRaidAttackSpeed",
  "LuckyRaidPets",
