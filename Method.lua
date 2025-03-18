@@ -9,7 +9,7 @@ _G.GDO_BOSSES = true
 --_G.GRESET_UPGRADES = true
 _G.GUSE_BOOSTS = true
 _G.GUSE_LEPRECHAUN_KEYS = true
-_G.GMAX_RAID_LEVEL = 20000
+_G.GMAX_RAID_LEVEL = 5000
 _G.GMIN_MULTIPLIER = 300 -- which egg to hatch
 _G.GEVENT_UPGRADES = {
  "LuckyRaidDamage",
