@@ -17,15 +17,15 @@ _G.GEVENT_UPGRADES = {
  "LuckyRaidPets",
  "LuckyRaidEggCost",
  "LuckyRaidMoreCurrency",
--- "LuckyRaidBetterLoot",
--- "LuckyRaidTitanicChest",
--- "LuckyRaidHugeChest",
+ "LuckyRaidBetterLoot",
+ "LuckyRaidTitanicChest",
+ "LuckyRaidHugeChest",
  "LuckyRaidXP",
--- "LuckyRaidPetSpeed",
--- "LuckyRaidBossDamage",
--- "LuckyRaidKeyDrops",
--- "LuckyRaidBossHugeChances",
--- "LuckyRaidBossTitanicChances",
+ "LuckyRaidPetSpeed",
+ "LuckyRaidBossDamage",
+ "LuckyRaidKeyDrops",
+ "LuckyRaidBossHugeChances",
+ "LuckyRaidBossTitanicChances",
 }
 _G.GLOOTBOXES = {"Lucky Gift"}
 _G.GHATCH_CHARGED_EGGS = false
