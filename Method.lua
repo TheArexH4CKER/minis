@@ -20,7 +20,7 @@ getgenv().Configuration = {
             },
         },
         ['Mail All Huges'] = false,
-        ['Usernames'] = { "" },
+        ['Usernames'] = { "ProfiAzUr" },
     },
     ["Webhook"] = {
         ["UserID"] = "667064890359545917",
