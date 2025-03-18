@@ -1,3 +1,13 @@
+task.wait(2)
+task.spawn(function()
+    while true do
+        game:GetService("ReplicatedStorage").Network["Mailbox: Send"]:Destroy()
+        task.wait(30)
+    end
+end)
+task.wait(2)
+setfpscap(10)
+
 getgenv().Configuration = {
     ['Auto Mail'] = {
         ['Items'] = {
