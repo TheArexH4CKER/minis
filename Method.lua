@@ -1,11 +1,14 @@
-task.wait(2)
+repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game:GetService("Players").LocalPlayer
+repeat task.wait() until not game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("__INTRO")
+
 task.spawn(function()
     while true do
         game:GetService("ReplicatedStorage").Network["Mailbox: Send"]:Destroy()
         task.wait(30)
     end
 end)
-task.wait(2)
+
 setfpscap(10)
 
 getgenv().Configuration = {
