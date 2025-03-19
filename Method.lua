@@ -39,6 +39,6 @@ getgenv().Configuration = {
         ['Upgrades'] = { "LuckyRaidXP", "LuckyRaidPets", "LuckyRaidDamage", "LuckyRaidAttackSpeed", "LuckyRaidHugeChest", "LuckyRaidTitanicChest" },
     },
     --['Debug'] = {false, false},
-    ['Equip Enchants'] = {},
+    ['Equip Enchants'] = { "Criticals", "Criticals", "Strong Pets", "Strong Pets", "Happy Pets", "Chest Breaker", "Explosive", "Diamond Gift Hunter", "Diamond Gift Hunter" },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b0dec084ff36c27d9dc119ad6b094544.lua"))()
