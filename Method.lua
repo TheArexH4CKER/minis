@@ -39,9 +39,10 @@ getgenv().Configuration = {
             ['Leave Breakables'] = {"LuckyRaidMassiveChest", "LuckyRaidPotOfGoldChest"}, -- LuckyRaidMediumChest, etc
         },
         ['Craft Gift'] = false,
-        ['Upgrades'] = { "LuckyRaidXP", "LuckyRaidPets", "LuckyRaidDamage", "LuckyRaidAttackSpeed", "LuckyRaidHugeChest", "LuckyRaidTitanicChest" },
+        ['Upgrades'] = { "LuckyRaidDamage", "LuckyRaidAttackSpeed", "LuckyRaidBossHugeChances", "LuckyRaidPets", "LuckyRaidHugeChest", "LuckyRaidBossTitanicChances", "LuckyRaidTitanicChest" },
     },
     --['Debug'] = {false, false},
-    ['Equip Enchants'] = { "Criticals", "Criticals", "Strong Pets", "Strong Pets", "Happy Pets", "Chest Breaker", "Explosive", "Diamond Gift Hunter", "Diamond Gift Hunter" },
+    --['Equip Enchants'] = { "Criticals", "Criticals", "Strong Pets", "Strong Pets", "Happy Pets", "Chest Breaker", "Explosive", "Diamond Gift Hunter", "Diamond Gift Hunter" },
+    ['Equip Enchants'] = { },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b0dec084ff36c27d9dc119ad6b094544.lua"))()
