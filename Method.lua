@@ -11,6 +11,10 @@ end)
 
 setfpscap(10)
 
+if game.PlaceId ~= 17503543197 then
+    game.ReplicatedStorage.Network.World3Teleport:InvokeServer()
+end
+
 getgenv().Configuration = {
     ['Auto Mail'] = {
         ['Items'] = {
