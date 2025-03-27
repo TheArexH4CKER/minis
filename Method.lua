@@ -16,6 +16,7 @@ getgenv().Configuration = {
     },
     ["Webhook"] = {
         ["UserID"] = "667064890359545917",
+        ['Ping Global'] = false,
         ["WebhookURL"] = "https://discord.com/api/webhooks/1249413828547182742/VUCfE51nqu43KBRgI1qqyhoZd7AeGZtrQgsr1AADWAABe1xSFk62t77zHTCJtGqFCzk3",
     },
     ['Event'] = {
