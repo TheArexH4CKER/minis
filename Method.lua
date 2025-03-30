@@ -12,7 +12,6 @@ _G.GEVENT_UPGRADES = {
 }
 _G.GMINING_EVENT_HATCH_PET_CHANCE = 1 -- don't touch if you don't understand
 _G.GEVENT_FPS  = 10
-_G.GLOOTBOXES = {"Locked Hype Egg"}
 _G.GGFX_MODE = 1 -- or 2 to still see something
 _G.GZONE_TO = 999 -- to enter event from W3 intead put 999
 _G.GWEBHOOK_USERID = "667064890359545917"
