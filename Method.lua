@@ -1,8 +1,6 @@
-setfpscap(10)
-
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
 _G.GDO_MINING_EVENT = true
-_G.GMINING_EVENT_ZONE_TO = 6
+_G.GMINING_EVENT_ZONE_TO = 5
 _G.GTELEPORT_MINING = true
 _G.GBUY_DIAMOND_PICKAXE = true
 _G.GMINING_EVENT_MAX_AUTO_CRAFT_RECIPE = 4
@@ -11,7 +9,7 @@ _G.GEVENT_UPGRADES = {
     "MiningEventIncreaseTierUpChance",
 }
 _G.GMINING_EVENT_HATCH_PET_CHANCE = 1 -- don't touch if you don't understand
-_G.GEVENT_FPS  = 10
+_G.GEVENT_FPS  = 15
 _G.GGFX_MODE = 1 -- or 2 to still see something
 _G.GZONE_TO = 999 -- to enter event from W3 intead put 999
 _G.GWEBHOOK_USERID = "667064890359545917"
