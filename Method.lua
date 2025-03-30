@@ -2,7 +2,7 @@ setfpscap(10)
 
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
 _G.GDO_MINING_EVENT = true
-_G.GBUY_DIAMOND_PICKAXE = false
+_G.GBUY_DIAMOND_PICKAXE = true
 _G.GMINING_EVENT_MAX_AUTO_CRAFT_RECIPE = 4
 _G.GEVENT_UPGRADES = {
     "MiningEventLessPetsRequiredToComboThem",
