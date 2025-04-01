@@ -6,7 +6,7 @@ getgenv().Config = {
         ["AutoCraft"] = false, -- Autocraft Onyx Gems // After max cheaper upgrade is bought
     },
     ["Pickaxe"] = {
-        ["AutoEnchant"] = true, -- Enchants ur best Pickaxe
+        ["AutoEnchant"] = false, -- Enchants ur best Pickaxe
         ["GetAllEnchants"] = true,
         ["PickaxeEnchants"] = {
             ["Power Ball"] = 5, -- This will stop at Fortune 3, 4, 5
