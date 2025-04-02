@@ -1,7 +1,7 @@
 setfpscap(20)
 getgenv().Config = {
     ["Farming"] = {
-        ["AreaToFarm"] = 6,
+        ["AreaToFarm"] = 5,
         ["StartAtBottom"] = true,
         ["AutoCraft"] = false, -- Autocraft Onyx Gems // After max cheaper upgrade is bought
     },
