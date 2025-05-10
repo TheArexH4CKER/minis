@@ -1,4 +1,4 @@
-script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
+script_key = "PrdGLunKhylOudAZAeFqgBlWmDBVwkWd";
  _G.GPROGRESS_MODE = "Hybrid"
  _G.GGFX_MODE = 1
  _G.GHATCH_CHARGED_EGGS = false
