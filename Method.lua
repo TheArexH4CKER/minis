@@ -10,9 +10,7 @@ getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1249413828547182742/
 getgenv().GHUGE_COUNT = 100 -- amount of huges to keep/not mail
 getgenv().GMAIL_RECEIVERS = {"ElfBarZero","ProfiAzUr"} -- for Huges and mailrules.
 getgenv().GMAIL_ITEMS = {
---["Pixel Rainbow Shard"] = {Class = "Misc", Id = "Pixel Rainbow Shard", MinAmount = 9999}, --uncomment & change MinAmount to mail
---["Pixel Rainbow Gem"] = {Class = "Misc", Id = "Pixel Rainbow Gem", MinAmount = 9999}, --uncomment & change MinAmount to mail
---["Pixel Rainbow Dust"] = {Class = "Misc", Id = "Pixel Rainbow Dust", MinAmount = 9999}, --uncomment & change MinAmount to mail
+["Pixel Rainbow Gem"] = {Class = "Misc", Id = "Pixel Rainbow Gem", MinAmount = 200}, --uncomment & change MinAmount to mail
 ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "1b"}, -- mail diamonds, to enable lower MinAmount..
 ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
