@@ -2,6 +2,8 @@ setfpscap(5)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
 getgenv().GZONE_TO = 999 -- to enter event from W1 put 99, from W2 put 199, from W3 999
 getgenv().GDO_FARMING_WORLD = true
+getgenv().GFARMING_WORLD_MAX_AUTO_CRAFT_RECIPE = 2 --2: make untill RB Gems
+getgenv().GCOMBINE_KEYS = true
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 getgenv().GWEBHOOK_USERID = "667064890359545917" -- your discord userID, not your name. numerical id.
 getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1249413828547182742/VUCfE51nqu43KBRgI1qqyhoZd7AeGZtrQgsr1AADWAABe1xSFk62t77zHTCJtGqFCzk3" -- a webhook URL from your private discord channel.
