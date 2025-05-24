@@ -1,6 +1,6 @@
 setfpscap(5)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
-getgenv().GZONE_TO = 999 -- to enter event from W1 put 99, from W2 put 199, from W3 999
+getgenv().GZONE_TO = 99 -- to enter event from W1 put 99, from W2 put 199, from W3 999
 getgenv().GDO_FARMING_WORLD = true
 getgenv().GFARMING_WORLD_MAX_AUTO_CRAFT_RECIPE = 2 --2: make untill RB Gems
 getgenv().GCOMBINE_KEYS = true
