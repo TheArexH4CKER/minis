@@ -2,15 +2,25 @@ setfpscap(5)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO";
 getgenv().GZONE_TO = 99 -- to enter event from W1 put 99, from W2 put 199, from W3 999
 getgenv().GDO_FARMING_WORLD = true
-getgenv().GFARMING_WORLD_MAX_AUTO_CRAFT_RECIPE = 2 --2: make untill RB Gems
-getgenv().GCOMBINE_KEYS = true
-getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
+getgenv().GEVENT_UPGRADES = 
+{
+"FarmingHugeChance",
+"FarmingTitanicChance",
+"FarmingPixelRainbowLuck",
+"FarmingGoldHatchChance",
+"FarmingRainbowHatchChance",
+"FarmingShinyHatchChance",
+}
+getgenv().GFARMING_WORLD_EVENT_UPGRADE_MAX_COST = "100m" --choose your own limit value
+getgenv().GFARMING_WORLD_MAX_AUTO_CRAFT_RECIPE = 5
+getgenv().GGFX_MODE = 2  --1 = REMOVE_TEXTURES : more stable! but no visuals
 getgenv().GWEBHOOK_USERID = "667064890359545917" -- your discord userID, not your name. numerical id.
 getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1249413828547182742/VUCfE51nqu43KBRgI1qqyhoZd7AeGZtrQgsr1AADWAABe1xSFk62t77zHTCJtGqFCzk3" -- a webhook URL from your private discord channel.
-getgenv().GHUGE_COUNT = 100 -- amount of huges to keep/not mail
+getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
 getgenv().GMAIL_RECEIVERS = {"ElfBarZero","ProfiAzUr"} -- for Huges and mailrules.
 getgenv().GMAIL_ITEMS = {
-["Pixel Rainbow Gem"] = {Class = "Misc", Id = "Pixel Rainbow Gem", MinAmount = 25}, --uncomment & change MinAmount to mail
+["Pixel Prism"] = {Class = "Misc", Id = "Pixel Prism", MinAmount = 20}, --uncomment & change MinAmount to mail
+["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
 ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "1b"}, -- mail diamonds, to enable lower MinAmount..
 ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
