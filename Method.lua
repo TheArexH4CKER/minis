@@ -5,7 +5,7 @@ script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 99 -- W1=99, W2=199, W3=999
 getgenv().GREBIRTH_TO = 4
-getgenv().GRANK_TO = 4
+getgenv().GRANK_TO = 5
 getgenv().GDO_FARMING_WORLD = true
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch, Hybrid, etc.
 
