@@ -6,7 +6,7 @@ getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 99 -- W1=99, W2=199, W3=999
 getgenv().GREBIRTH_TO = 4
 getgenv().GRANK_TO = 6
-getgenv().GDO_FARMING_WORLD = true
+getgenv().GDO_BASKETBALL_EVENT = true
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch, Hybrid, etc.
 
 -- Graphics & Performance
@@ -27,17 +27,18 @@ getgenv().GMAX_ZONE_UPGRADE_COST = 300000
 
 -- Events, Upgrades, Items, Potions, Fruits
 getgenv().GEVENT_UPGRADES = {
-    "FarmingHugeChance",
-    "FarmingTitanicChance",
-    "FarmingPixelRainbowLuck",
-    "FarmingGoldHatchChance",
-    "FarmingRainbowHatchChance",
-    "FarmingShinyHatchChance"
+"CriticalThrowChance",
+"TrickshotThrowChance",
+--"YeetOrbsReach",--not needed
+"YeetOrbStrength",
+"BetterYeetEgg"
 }
+
 
 getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata", "Party Box", "Mini Lucky Block"}
 getgenv().GFRUITS = {"Watermelon", "Candycane", "Apple", "Rainbow", "Pineapple", "Orange", "Banana"}
 getgenv().GPOTIONS = {"Coins", "Lucky", "The Cocktail", "Huge", "Treasure Hunter", "Walkspeed", "Diamonds", "Damage"}
+getgenv().GENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs"}
 getgenv().GPOTIONS_MAX_TIER = 99
 
 -- Extra Gameplay Settings
