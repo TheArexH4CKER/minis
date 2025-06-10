@@ -3,9 +3,9 @@ script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 
 -- Main Toggles and Core Setup
 getgenv().GRANK_FIRST = true
-getgenv().GZONE_TO = 99 -- W1=99, W2=199, W3=999
-getgenv().GREBIRTH_TO = 4
-getgenv().GRANK_TO = 6
+getgenv().GZONE_TO = 999 -- W1=99, W2=199, W3=999
+getgenv().GREBIRTH_TO = 9
+getgenv().GRANK_TO = 12
 getgenv().GDO_BASKETBALL_EVENT = true
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch, Hybrid, etc.
 
