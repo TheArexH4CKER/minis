@@ -53,7 +53,7 @@ getgenv().GUSE_FLAGS = {"Fortune Flag", "Diamonds Flag", "Coins Flag"}
 
 -- Discord Webhook Integration
 getgenv().GWEBHOOK_USERID = "667064890359545917"
-getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1377734723652292619/g9GmCj3tHcQj-34LY6scWh-7mS919Bp1AshltuSjfFZeuDK29qoX5wfgWqZajLUz2pNQ"
+getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1382049363794198619/Io0C3DWraJnbK_K7gY-__80PmgoHaVWAuZ8KqOlkXfG7YQrGCShLKxH8CNg7TWsipJOW"
 
 -- Mail and Item Filtering
 getgenv().GHUGE_COUNT = 0
