@@ -3,10 +3,10 @@ script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 
 -- Main Toggles and Core Setup
 getgenv().GRANK_FIRST = true
-getgenv().GZONE_TO = 999 -- W1=99, W2=199, W3=999
-getgenv().GREBIRTH_TO = 99
-getgenv().GRANK_TO = 12
-getgenv().GDO_BASKETBALL_EVENT = true
+getgenv().GZONE_TO = 99 -- W1=99, W2=199, W3=999
+getgenv().GREBIRTH_TO = 4
+getgenv().GRANK_TO = 8
+getgenv().GDO_TOWER_DEFENSE = true
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch, Hybrid, etc.
 
 -- Graphics & Performance
@@ -26,19 +26,11 @@ getgenv().GWAIT_AT_GATES_TILL_RANK = 5
 getgenv().GMAX_ZONE_UPGRADE_COST = 300000
 
 -- Events, Upgrades, Items, Potions, Fruits
-getgenv().GEVENT_UPGRADES = {
-"CriticalThrowChance",
-"TrickshotThrowChance",
---"YeetOrbsReach",--not needed
-"YeetOrbStrength",
-"BetterYeetEgg"
-}
 
 
 getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata", "Party Box", "Mini Lucky Block"}
 getgenv().GFRUITS = {"Watermelon", "Candycane", "Apple", "Rainbow", "Pineapple", "Orange", "Banana"}
 getgenv().GPOTIONS = {"Coins", "Lucky", "The Cocktail", "Huge", "Treasure Hunter", "Walkspeed", "Diamonds", "Damage"}
-getgenv().GENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs"}
 getgenv().GPOTIONS_MAX_TIER = 99
 
 -- Extra Gameplay Settings
@@ -59,7 +51,6 @@ getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1382049363794198619/
 getgenv().GHUGE_COUNT = 0
 getgenv().GMAIL_RECEIVERS = {"ElfBarZero", "ProfiAzUr"}
 getgenv().GMAIL_ITEMS = {
-    ["Pixel Prism"] = {Class = "Misc", Id = "Pixel Prism", MinAmount = 50},
     ["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
     ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "1b"},
     ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
