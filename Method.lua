@@ -1,64 +1,10 @@
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
-
--- Main Toggles and Core Setup
-getgenv().GRANK_FIRST = true
-getgenv().GZONE_TO = 99 -- W1=99, W2=199, W3=999
-getgenv().GREBIRTH_TO = 4
-getgenv().GRANK_TO = 8
 getgenv().GDO_TOWER_DEFENSE = true
-getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch, Hybrid, etc.
-
--- Graphics & Performance
-getgenv().GGFX_MODE = 1 -- 1 = REMOVE_TEXTURES, 2 = normal visuals
-setfpscap(5)
-
--- Auto Hatch & Crafting
-getgenv().GHATCH_SPEED_MS = 0
-getgenv().GHATCH_GOLDEN_EGGS = false
-getgenv().GCLEAR_FAVORITE_PETS = false
-getgenv().GMAX_HATCH = 99
-getgenv().GFARMING_WORLD_MAX_AUTO_CRAFT_RECIPE = 5
-getgenv().GFARMING_WORLD_EVENT_UPGRADE_MAX_COST = "100m"
-
--- Rank & Zone Control
-getgenv().GWAIT_AT_GATES_TILL_RANK = 5
-getgenv().GMAX_ZONE_UPGRADE_COST = 300000
-
--- Events, Upgrades, Items, Potions, Fruits
-
-
-getgenv().GEVENT_ITEMS_TO_USE = {"Mini Pinata", "Party Box", "Mini Lucky Block"}
-getgenv().GFRUITS = {"Watermelon", "Candycane", "Apple", "Rainbow", "Pineapple", "Orange", "Banana"}
-getgenv().GPOTIONS = {"Coins", "Lucky", "The Cocktail", "Huge", "Treasure Hunter", "Walkspeed", "Diamonds", "Damage"}
-getgenv().GPOTIONS_MAX_TIER = 99
-
--- Extra Gameplay Settings
-getgenv().GHOLD_GIFTS = false
-getgenv().GHOLD_BUNDLES = false
-getgenv().GOPEN_ITEMS_IN_BULK = true
-getgenv().GCOLLECT_FREE_ITEMS = true
-getgenv().GIGNORE_ALL_INSTANCES = true
-getgenv().GIGNORE_SLEDRACE = false
-getgenv().GUSE_ULTIMATES = {"Tsunami", "Tornado", "Pet Surge", "Chest Spell", "Ground Pound"}
-getgenv().GUSE_FLAGS = {"Fortune Flag", "Diamonds Flag", "Coins Flag"}
-
--- Discord Webhook Integration
-getgenv().GWEBHOOK_USERID = "667064890359545917"
-getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1384141998641905785/wuWSr99BV-wXOxZ0RrEaSsB5xpZrU5By3j3i2dKffJx-2pz70khkOiYEMcv4-DLI0kA9"
-
--- Mail and Item Filtering
-getgenv().GHUGE_COUNT = 0
-getgenv().GMAIL_RECEIVERS = {"ElfBarZero", "ProfiAzUr"}
-getgenv().GMAIL_ITEMS = {
-    ["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
-    ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "1b"},
-    ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
-    ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
-    ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
-    ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
-    ["Secret pet3"] = {Class = "Pet", Id = "Coin", MinAmount = 1, AllVariants = true},
-    ["Secret pet4"] = {Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1, AllVariants = true},
-}
-
--- Loader
+--look in buyer-announcements for correct names.
+getgenv().GTOWER_DEFENSE_INFINITY_PET = {"Mechanical Griffin","Zeus Bear","Rich Corgi","TNT Capybara","Nuclear Dominus","Arcade Angelus","Nightmare Cyclops","Forged Armadillo","Electric Eel","Comet Dragon","Shadow Pegasus","Torpedo Cat","Frostbyte Griffin","Tech Samurai Axolotl","Demolition Panda"}
+getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
+getgenv().GZONE_TO = 99 -- or change to 999 to join from last world
+getgenv().GWEBHOOK_USERID = "667064890359545917" -- your discord userID, not your name. numerical id.
+getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1384916904715747370/L9vx3-SGbIWIHzIMviPAZWQTzndv-CXp3OoD2jYrtzn5QFx3Nvz1leG3GkkZFh8tgQZU" -- a webhook URL from your private discord channel.
+getgenv().GMAIL_RECEIVERS = {"ElfBarZero"} -- an account to receive hatched Huges etc
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
