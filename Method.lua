@@ -1,3 +1,4 @@
+setfpscap(10)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 getgenv().GDO_TOWER_DEFENSE = true
 --look in buyer-announcements for correct names.
