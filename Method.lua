@@ -1,6 +1,7 @@
 setfpscap(10)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 getgenv().GDO_TOWER_DEFENSE = true
+getgenv().GTOWER_DEFENSE_HARDCORE_MODE = true
 --look in buyer-announcements for correct names.
 getgenv().GTOWER_DEFENSE_INFINITY_PET = {"Crystal Giraffe","Nightmare Cyclops","Blurred Owl","Nuclear Dominus","Arcade Angelus","Jetpack Cat","Abyssal Turtle","Electric Eel","Forged Armadillo","Comet Dragon","Rich Corgi","Disco Ball Agony","Torpedo Cat","Shadow Pegasus","Ooze Dragon","Tech Samurai Axolotl","Potion Penguin","Umbrella Elephant","Old Wizard Cat","Frostbyte Griffin","Detective Bunny","Knight Chicken","Flamethrower Spider","Demolition Panda"}
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
