@@ -2,6 +2,7 @@ task.wait(5)
 if game.PlaceId ~= 8737899170 then
     game.ReplicatedStorage.Network.World1Teleport:InvokeServer()
 end
+
 task.wait(5)
 setfpscap(5)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
