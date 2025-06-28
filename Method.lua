@@ -1,3 +1,8 @@
+task.wait(5)
+if game.PlaceId ~= 8737899170 then
+    game.ReplicatedStorage.Network.World1Teleport:InvokeServer()
+end
+task.wait(5)
 setfpscap(5)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
