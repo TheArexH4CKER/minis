@@ -16,7 +16,8 @@ getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 
 getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 99 -- or change to 999 to join from last world
-getgenv().GRANK_TO = 6
+getgenv().GREBIRTH_TO = 4
+getgenv().GRANK_TO = 5
 getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch, Hybrid, etc.
 
 getgenv().GENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs"}
