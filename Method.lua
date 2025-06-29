@@ -1,4 +1,7 @@
-setfpscap(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/Pet-99/main/LookFPS-X4"))()
+
+task.wait(5)
+
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 getgenv().GDO_GYM_EVENT = true
 getgenv().GGYM_EVENT_STAT_CONFIG = {
