@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/Pet-99/main/LookFPS-X4"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheArexH4CKER/minis/refs/heads/main/LookFPS-X4.lua"))()
 
 task.wait(5)
 
