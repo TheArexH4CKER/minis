@@ -4,21 +4,12 @@ task.wait(5)
 
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 
-getgenv().GDO_GYM_EVENT = true
-getgenv().GGYM_EVENT_STAT_CONFIG = {
-    ["Stamina"] = 30,
-    ["CritChance"] = 8,
-    ["Strength"] = 62,
-    ["Size"] = 1
-}
+getgenv().GDO_BLOCK_PARTY = true
 
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
 
 getgenv().GRANK_FIRST = true
 getgenv().GZONE_TO = 99 -- or change to 999 to join from last world
-getgenv().GREBIRTH_TO = 4
-getgenv().GRANK_TO = 5
-getgenv().GPROGRESS_MODE = "Hybrid" -- Hatch, Hybrid, etc.
 
 getgenv().GENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs"}
 getgenv().GPOTIONS = {"Lucky"}
@@ -30,15 +21,15 @@ getgenv().GWEBHOOK_LINK = "https://l.webhook.party/hook/fgsaX7C4q%2FRTsMUS0VH0vY
 getgenv().GMAIL_RECEIVERS = {"ElfBarZero"}
 getgenv().GMAX_MAIL_COST = "1m" -- this can limit how many mails sent/day
 getgenv().GMAIL_ITEMS = {
-["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
 ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "50m"}, -- mail diamonds, to enable lower MinAmount..
 ["Hype Egg 2"] = {Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1},
-["Basketball Gift"] = {Class = "Lootbox", Id = "Basketball Gift", MinAmount = 200},
-["Cosmic Basketball Gift"] = {Class = "Lootbox", Id = "Cosmic Basketball Gift", MinAmount = 200},
-["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 100},
-["Magma Tower Defense Gift"] = {Class = "Lootbox", Id = "Magma Tower Defense Gift", MinAmount = 100},
-["Matrix Tower Defense Gift"] = {Class = "Lootbox", Id = "Matrix Tower Defense Gift", MinAmount = 100},
-["Gym Gift"] = {Class = "Lootbox", Id = "Gym Gift", MinAmount = 100},
+["Basketball Gift"] = {Class = "Lootbox", Id = "Basketball Gift", MinAmount = 1},
+["Cosmic Basketball Gift"] = {Class = "Lootbox", Id = "Cosmic Basketball Gift", MinAmount = 1},
+["Tower Defense Gift"] = {Class = "Lootbox", Id = "Tower Defense Gift", MinAmount = 1},
+["Magma Tower Defense Gift"] = {Class = "Lootbox", Id = "Magma Tower Defense Gift", MinAmount = 1},
+["Matrix Tower Defense Gift"] = {Class = "Lootbox", Id = "Matrix Tower Defense Gift", MinAmount = 1},
+["Gym Gift"] = {Class = "Lootbox", Id = "Gym Gift", MinAmount = 1},
+["Tropical Gift"] = {Class = "Lootbox", Id = "Tropical Gift", MinAmount = 100},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
 ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
