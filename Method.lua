@@ -5,11 +5,11 @@ task.wait(5)
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 
 getgenv().GDO_BLOCK_PARTY = true
+getgenv().GBLOCK_PARTY_STOP_REBIRTHING_ON_TITANIC = true
+getgenv().GBLOCK_PARTY_RAFFLE_ENTRIES = 5
 
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
-
-getgenv().GRANK_FIRST = true
-getgenv().GZONE_TO = 99 -- or change to 999 to join from last world
+getgenv().GZONE_TO = 999 -- or change to 999 to join from last world
 
 getgenv().GENCHANTS = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Lucky Eggs"}
 getgenv().GPOTIONS = {"Lucky"}
@@ -29,7 +29,8 @@ getgenv().GMAIL_ITEMS = {
 ["Magma Tower Defense Gift"] = {Class = "Lootbox", Id = "Magma Tower Defense Gift", MinAmount = 1},
 ["Matrix Tower Defense Gift"] = {Class = "Lootbox", Id = "Matrix Tower Defense Gift", MinAmount = 1},
 ["Gym Gift"] = {Class = "Lootbox", Id = "Gym Gift", MinAmount = 1},
-["Tropical Gift"] = {Class = "Lootbox", Id = "Tropical Gift", MinAmount = 100},
+["Summer Gift"] = {Class = "Lootbox", Id = "Summer Gift", MinAmount = 350},
+["Tropical Gift"] = {Class = "Lootbox", Id = "Tropical Gift", MinAmount = 350},
 ["Daycare egg 5"] = {Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1},
 ["Secret pet1"] = {Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1, AllVariants = true},
 ["Secret pet2"] = {Class = "Pet", Id = "Banana", MinAmount = 1, AllVariants = true},
