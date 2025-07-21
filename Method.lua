@@ -1,7 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TheArexH4CKER/minis/refs/heads/main/LookFPS-X4.lua"))()
-
-task.wait(5)
-
 script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 
 getgenv().GDO_BLOCK_PARTY = true
