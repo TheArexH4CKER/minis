@@ -2,7 +2,7 @@ script_key = "oienRcMcQXAagTUfNqGIizJioerDUgCO"
 
 getgenv().GDO_BLOCK_PARTY = true
 getgenv().GBLOCK_PARTY_STOP_REBIRTHING_ON_TITANIC = true
-getgenv().GBLOCK_PARTY_STOP_REBIRTHING_ON_MULTIPLIER2 = 25
+getgenv().GBLOCK_PARTY_STOP_REBIRTHING_ON_MULTIPLIER2 = 5
 getgenv().GBLOCK_PARTY_RAFFLE_ENTRIES = 5
 
 getgenv().GGFX_MODE = 1  --1 = REMOVE_TEXTURES : more stable! but no visuals
